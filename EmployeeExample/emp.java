@@ -4,8 +4,10 @@ public class emp {
     String name;
     String role;
     double salary;
+    String id;
 
-    public emp(String name, String role, double salary){
+    public emp(String id, String name, String role, double salary){
+        this.id = id;
         this.name = name;
         this.role = role;
         this.salary = salary;
@@ -13,6 +15,6 @@ public class emp {
     
     @Override
     public String toString() {
-        return "Emp: {" + name + ", " + role + ", " + salary + "}";
+        return "Emp: {" +id +", "+ name + ", " + role + ", " + salary + "}";
     }
 }

@@ -29,7 +29,7 @@ public class patterns {
            *
     */
     public static void IItriangle(int rows, char ch) {
-        // TODO: write the logic
+        // write the logic
         for (int i = 0; i < rows; i++) {
             // print spaces
             for (int j = 0; j < i; j++) {
