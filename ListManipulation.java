@@ -6,25 +6,16 @@ import java.util.List;
 
 public class ListManipulation {
 
-    public static List<Integer> removeSecondElement(List<Integer> a){
-        List<Integer> res = new ArrayList<>();
-        for(int i = 0; i < a.size(); i++){
-            if(i % 2 == 0){
-                res.add(a.get(i));
-            }
-        }
-        return res;
-    }
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>();
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
-        numbers.add(5);
-        numbers.add(6);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        list.add(6);
 
-        System.out.println("Original List: " + numbers);
-        System.out.println("Modified List: " + removeSecondElement(numbers));
+        list.stream().skip(1).forEach(System.out::println);
     }
+        
 }
