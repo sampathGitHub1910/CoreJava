@@ -8,16 +8,14 @@ public class Employee {
         this.sal = sal;
     }
 
-    
     @Override
     public String toString() {
-        return "Employee [name=" + name + ", sal=" + sal + "]";
+        return "Employee : " + name + ", " + sal;
     }
 
     public String getName() {
         return name;
     }
-
 
     public double getSal() {
         return sal;
