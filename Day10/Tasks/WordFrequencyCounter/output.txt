@@ -1,0 +1,7 @@
+the: 4
+chased: 1
+mouse: 2
+garden.: 1
+cat: 1
+garden: 1
+around: 2
