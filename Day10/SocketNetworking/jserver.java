@@ -20,7 +20,6 @@ public class jserver {
 
             input = new DataInputStream(new BufferedInputStream(socket.getInputStream()));
 
-            @SuppressWarnings("deprecation")
             String data = input.readLine(); // data
 
             System.out.println("Data received: " + data);
